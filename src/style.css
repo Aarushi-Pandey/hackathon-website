@@ -69,16 +69,19 @@
   }
   .section {
     text-align: center;
-    width: 500px;
+    width: 1000px;
     margin-left: 230px;
     margin-top: 15px;
     padding: 10px;
-    
+    background-color: white;
   }
   #links {
     font-size: 18px;
     text-align: justify;
     margin-left: 130px;
+    margin-right: 130px;
+    background-color: white;
+    color: black;
   }
   #footer {
     display: flex;
@@ -95,5 +98,11 @@
 #spacer {
   position: fixed;
   height: 200px;
+}
+a {
+  color: black;
+}
+h2 {
+  font-size: 35px;
 }
 </style>
