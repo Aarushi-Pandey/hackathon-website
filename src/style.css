@@ -4,6 +4,9 @@
     right:10;
     display: flex;
   }
+#logo {
+  background-color: cyan;
+}
   @media (max-width: 400px) {
     #header {
       background-color: white;
@@ -21,6 +24,7 @@
     background-color: pink;
     padding: 10px;
     color: black;
+    border-radius: 5px;
   }
   .invisible {
     list-style: none;
@@ -69,6 +73,7 @@
     margin-left: 230px;
     margin-top: 15px;
     padding: 10px;
+    
   }
   #links {
     font-size: 18px;
