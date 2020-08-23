@@ -4,8 +4,9 @@
     right:10;
     display: flex;
   }
-#logo {
-  
+.nav-link:hover{
+  border-top: 5px solid #7F3E71;
+  background: #ECECEB;
 }
   @media (max-width: 400px) {
     #header {
@@ -24,7 +25,6 @@
     background-color: #F2AAAA;
     padding: 10px;
     color: black;
-    border-radius: 5px;
   }
   .invisible {
     list-style: none;
@@ -87,13 +87,14 @@
     display: flex;
     position: absolute;
     width: 100%;
-    right:0px;
     left:0;
-    padding: 0px 0 0px 0;
+    right:0;
+    padding: 20px;
     text-align: center;
     margin-top: 30px;
-    background-color: #eee;
-    color: black;
+    background-color: #3333;
+    color: #fff;
+    font-size: 20px;
   }
 #spacer {
   position: fixed;
@@ -104,5 +105,15 @@ a {
 }
 h2 {
   font-size: 35px;
+}
+#forms {
+  display: flex;
+  flex-order: row;
+  justify-content: left;
+  text-align: left;
+}
+#form1 {
+  padding-right: 70px;
+  text-align: left;
 }
 </style>
