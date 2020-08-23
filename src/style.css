@@ -5,14 +5,14 @@
     display: flex;
   }
 #logo {
-  background-color: cyan;
+  
 }
   @media (max-width: 400px) {
     #header {
       background-color: white;
     }
   }
-  #header-img {
+  header-img {
     padding: 10px;
     height: 70px;
     width: 250px;
@@ -21,7 +21,7 @@
   .nav-link {
     font-size: 18px;
     text-decoration: none;
-    background-color: pink;
+    background-color: #F2AAAA;
     padding: 10px;
     color: black;
     border-radius: 5px;
@@ -38,7 +38,7 @@
     justify-content: space-around;
     
   }
-  form {
+  #form {
     text-align: center;
     padding: 20px;
     font-size: 20px;
@@ -55,7 +55,7 @@
     height: 30px;
   }
   body {
-    background-color: pink;
+    background-color: #DDF3F5;
   }
   header {
     top: 0;
